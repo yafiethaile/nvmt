@@ -1,0 +1,63 @@
+/* src/components/HomePage.css */
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 150% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    background-image: url(C:\Users\sahil\OneDrive\Desktop\NVMT\frontend\src\assets\l-intro-1618597744.jpg), linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-size: cover, 300% 300%; 
+    background-position: center;
+    animation: animatedBackground 15s ease infinite;
+}
+
+
+  
+  .homePageTitle {
+    margin: 0;
+    font-size: 2.5rem;
+    color:white;
+  }
+  
+  .homePageButtons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: rgba(255, 255, 255, 0.863);
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  transform: scale(1.05); 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    
+  }
+  
+  .button:active {
+    background-color: #004094;
+  }
+  
+  .buttonLink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button{
+    transition: all 0.3s ease; 
+  }

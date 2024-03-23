@@ -1,0 +1,73 @@
+.suppliersContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supplierForm input, .supplierForm button {
+    margin: 10px;
+    padding: 8px;
+}
+
+.suppliersList table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.suppliersList th, .suppliersList td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.suppliersList th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.suppliersList tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.suppliersList tr:hover {
+    background-color: #ddd;
+}
+
+.supplierForm {
+    margin-bottom: 20px;
+}
+
+.supplierForm input[type="text"], 
+.supplierForm input[type="email"], 
+.supplierForm button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.supplierForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.supplierForm button:hover {
+    background-color: #45a049;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
